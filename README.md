@@ -27,7 +27,7 @@
       <framework name="Laravel" level="Advanced" />
       <framework name="Spring Boot" level="Intermediate" />
       <framework name="Hibernate" level="Intermediate" />
-      <framework name="Java EE (JEE)" level="Intermediate" />
+      <framework name="Jakarta EE (JEE)" level="Intermediate" />
       <framework name="JPA" level="Intermediate" />
       <framework name="Spring Framework" level="Intermediate" />
     </backend>
