@@ -11,7 +11,7 @@
   <contact>
     <email>hamzalamin80@gmail.com</email>
     <linkedin>www.linkedin.com/in/hamza-lamin-a0440a296</linkedin>
-    <x>https:www.x.com/FlHemza</x>
+    <x>https://www.x.com/FlHemza</x>
   </contact>
   
  <skills>
@@ -28,6 +28,8 @@
       <framework name="Spring Boot" level="Intermediate" />
       <framework name="Hibernate" level="Intermediate" />
       <framework name="Java EE (JEE)" level="Intermediate" />
+      <framework name="JPA" level="Intermediate" />
+      <framework name="Spring Framework" level="Intermediate" />
     </backend>
     <databases>
       <database name="MySQL" level="Advanced" />
@@ -36,6 +38,7 @@
     <devops>
       <tool name="Docker" level="Intermediate" />
       <tool name="Git" level="Advanced" />
+      <tool name="Maven" level="Intermediate" />
     </devops>
   </skills>
   
