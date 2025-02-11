@@ -17,10 +17,10 @@
  <skills>
     <frontend>
       <framework name="ANGULAR" level="Intermediate" />
-      <language name="HTML" level="Advanced" />
-      <language name="JavaScript" level="Intermediate" />
       <framework name="React.js" level="Intermediate" />
+      <language name="JavaScript" level="Intermediate" />
       <language name="CSS" level="Advanced" />
+      <language name="HTML" level="Advanced" />
     </frontend>
     <backend>
       <language name="Java" level="Intermediate" />
