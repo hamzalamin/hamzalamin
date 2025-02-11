@@ -5,7 +5,7 @@
 ```xml
 <profile>
   <name>LAMIN Hamza</name>
-  <role>Full-Stack Developer</role>
+  <role>Full-Stack Developer JAVA/ANGULAR</role>
   <location>Agadir, Morocco</location>
   
   <contact>
@@ -16,14 +16,16 @@
   
  <skills>
     <frontend>
+      <framework name="ANGULAR" level="Intermediate" />
       <language name="HTML" level="Advanced" />
-      <language name="CSS" level="Advanced" />
       <language name="JavaScript" level="Intermediate" />
       <framework name="React.js" level="Intermediate" />
+      <language name="CSS" level="Advanced" />
     </frontend>
     <backend>
-      <language name="PHP" level="Advanced" />
       <language name="Java" level="Intermediate" />
+      <language name="PHP" level="Advanced" />
+      <language name="Type Script" level="Intermediate" />
       <framework name="Laravel" level="Advanced" />
       <framework name="Spring Boot" level="Intermediate" />
       <framework name="Hibernate" level="Intermediate" />
@@ -34,6 +36,7 @@
     <databases>
       <database name="MySQL" level="Advanced" />
       <database name="PostgreSQL" level="Advanced" />
+      <database name="MongoDB" level="Intermediate" />
     </databases>
     <devops>
       <tool name="Docker" level="Intermediate" />
