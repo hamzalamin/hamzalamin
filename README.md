@@ -29,9 +29,7 @@ public class Developer {
         private final Map<String, SkillLevel> frontend = Map.of(
             "Angular", SkillLevel.INTERMEDIATE,
             "React.js", SkillLevel.INTERMEDIATE,
-            "JavaScript", SkillLevel.INTERMEDIATE,
-            "CSS", SkillLevel.ADVANCED,
-            "HTML", SkillLevel.ADVANCED
+            "JavaScript", SkillLevel.INTERMEDIATE
         );
         
         // Backend Technologies
@@ -58,7 +56,9 @@ public class Developer {
         private final Map<String, SkillLevel> devops = Map.of(
             "Docker", SkillLevel.INTERMEDIATE,
             "Git", SkillLevel.ADVANCED,
-            "Maven", SkillLevel.INTERMEDIATE
+            "Maven", SkillLevel.INTERMEDIATE,
+            "Jenkins", SkillLevel.INTERMEDIATE,
+            "GitHub Actions", SkillLevel.INTERMEDIATE
         );
     }
     
@@ -87,30 +87,20 @@ public class Developer {
                "and swimming to relax and stay fit!";
     }
     
-    /**
-     * Current projects I'm working on
-     * @return Map of project names and descriptions
-     */
-    public Map<String, String> getCurrentProjects() {
-        return Map.of(
-            "Project 1", "Description of your current project",
-            "Project 2", "Description of another project"
-        );
-    }
 }
 ```
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hamzalamin&show_icons=true&theme=radical)
 
 ## 🔥 Streak Stats
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YourGitHubUsername&theme=dark)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hamzalamin&theme=dark)
 
 ## 🏆 GitHub Trophies
 
-![](https://github-profile-trophy.vercel.app/?username=YourGitHubUsername&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=hamzalamin&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 ## 👨‍💻 My Coding Journey
 
@@ -134,6 +124,3 @@ try {
 }
 ```
 
----
-
-⚡ *"Java is to JavaScript what car is to carpet."* - Chris Heilmann
