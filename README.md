@@ -4,7 +4,7 @@
   
   ![Full-Stack Developer Banner](https://img.shields.io/badge/Full--Stack%20Developer-JAVA%20%7C%20ANGULAR-FF6B6B?style=for-the-badge)
   [![Location](https://img.shields.io/badge/📍%20Agadir-Morocco-00A98F?style=for-the-badge)](https://www.google.com/maps/place/Agadir)
-  [![Profile Views](https://komarev.com/ghpvc/?username=YOURUSERNAME&style=for-the-badge&color=brightgreen)](https://github.com/YOURUSERNAME)
+  [![Profile Views](https://komarev.com/ghpvc/?username=hamzalamin&style=for-the-badge&color=brightgreen)](https://github.com/hamzalamin)
   
 </div>
 
@@ -57,8 +57,8 @@ const hamza = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOURUSERNAME&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=hamzalamin&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hamzalamin&theme=radical" alt="GitHub Streak" />
 </div>
 
 ## 🏆 Skill Proficiency
