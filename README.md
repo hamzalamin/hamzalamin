@@ -1,4 +1,4 @@
-# LAMIN_HamzaTheUnregistered
+# LAMIN_HamzaUnregistered
 
 ```java
 /**
