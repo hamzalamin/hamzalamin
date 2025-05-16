@@ -1,98 +1,139 @@
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hello, I'm Hamza LAMIN!
+# LAMIN Hamza
 
-<div align="center">
-  
-  ![Full-Stack Developer Banner](https://img.shields.io/badge/Full--Stack%20Developer-JAVA%20%7C%20ANGULAR-FF6B6B?style=for-the-badge)
-  [![Location](https://img.shields.io/badge/📍%20Agadir-Morocco-00A98F?style=for-the-badge)](https://www.google.com/maps/place/Agadir)
-  [![Profile Views](https://komarev.com/ghpvc/?username=hamzalamin&style=for-the-badge&color=brightgreen)](https://github.com/hamzalamin)
-  
-</div>
-
-## 💼 Who Am I?
-
-```javascript
-const hamza = {
-  role: "Full-Stack Developer",
-  languages: ["Java", "TypeScript", "JavaScript", "PHP"],
-  frontendTools: ["Angular", "React.js", "HTML5", "CSS3"],
-  backendFrameworks: ["Spring Boot", "Laravel", "Jakarta EE", "JPA"],
-  databases: ["MySQL", "PostgreSQL", "MongoDB"],
-  devOps: ["Docker", "Git", "Maven"],
-  currentlyLearning: ["Machine Learning", "Advanced Angular Patterns"],
-  hobbies: ["Traveling", "Football", "Swimming"]
+```java
+/**
+ * @author LAMIN Hamza
+ * @version 1.0
+ * A Full-Stack Developer focused on Java & Angular
+ * Based in Agadir, Morocco 🇲🇦
+ */
+public class Developer {
+    
+    // Personal Information
+    private final String name = "LAMIN Hamza";
+    private final String role = "Full-Stack Developer";
+    private final String location = "Agadir, Morocco";
+    
+    // Contact Information
+    public static class Contact {
+        public final String email = "hamzalamin80@gmail.com";
+        public final String linkedin = "www.linkedin.com/in/hamza-lamin-a0440a296";
+        public final String twitter = "https://www.x.com/FlHemza";
+    }
+    
+    /**
+     * My tech stack and proficiency levels
+     */
+    public class Skills {
+        // Frontend Technologies
+        private final Map<String, SkillLevel> frontend = Map.of(
+            "Angular", SkillLevel.INTERMEDIATE,
+            "React.js", SkillLevel.INTERMEDIATE,
+            "JavaScript", SkillLevel.INTERMEDIATE,
+            "CSS", SkillLevel.ADVANCED,
+            "HTML", SkillLevel.ADVANCED
+        );
+        
+        // Backend Technologies
+        private final Map<String, SkillLevel> backend = Map.of(
+            "Java", SkillLevel.INTERMEDIATE,
+            "PHP", SkillLevel.ADVANCED,
+            "TypeScript", SkillLevel.INTERMEDIATE,
+            "Laravel", SkillLevel.ADVANCED,
+            "Spring Boot", SkillLevel.INTERMEDIATE,
+            "Hibernate", SkillLevel.INTERMEDIATE,
+            "Jakarta EE", SkillLevel.INTERMEDIATE,
+            "JPA", SkillLevel.INTERMEDIATE,
+            "Spring Framework", SkillLevel.INTERMEDIATE
+        );
+        
+        // Database Systems
+        private final Map<String, SkillLevel> databases = Map.of(
+            "MySQL", SkillLevel.ADVANCED,
+            "PostgreSQL", SkillLevel.ADVANCED,
+            "MongoDB", SkillLevel.INTERMEDIATE
+        );
+        
+        // DevOps Tools
+        private final Map<String, SkillLevel> devops = Map.of(
+            "Docker", SkillLevel.INTERMEDIATE,
+            "Git", SkillLevel.ADVANCED,
+            "Maven", SkillLevel.INTERMEDIATE
+        );
+    }
+    
+    // Skill level enum
+    private enum SkillLevel {
+        BEGINNER, INTERMEDIATE, ADVANCED
+    }
+    
+    /**
+     * Areas of interest in the tech world
+     * @return List of my current interests
+     */
+    public List<String> getInterests() {
+        return Arrays.asList(
+            "Web Development",
+            "Machine Learning"
+        );
+    }
+    
+    /**
+     * Something interesting about me
+     * @return A fun fact
+     */
+    public String getFunFact() {
+        return "I love tripping around new places, playing football with friends, " +
+               "and swimming to relax and stay fit!";
+    }
+    
+    /**
+     * Current projects I'm working on
+     * @return Map of project names and descriptions
+     */
+    public Map<String, String> getCurrentProjects() {
+        return Map.of(
+            "Project 1", "Description of your current project",
+            "Project 2", "Description of another project"
+        );
+    }
 }
 ```
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Frontend
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-### Backend
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-
-</div>
-
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hamzalamin&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hamzalamin&theme=radical" alt="GitHub Streak" />
-</div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical)
 
-## 🏆 Skill Proficiency
+## 🔥 Streak Stats
 
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YourGitHubUsername&theme=dark)
+
+## 🏆 GitHub Trophies
+
+![](https://github-profile-trophy.vercel.app/?username=YourGitHubUsername&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+## 👨‍💻 My Coding Journey
+
+```java
+try {
+    while(alive) {
+        coffee.drink();
+        code.write();
+        knowledge.expand();
+        
+        if(problems.exist()) {
+            problems.solve();
+        }
+        
+        energy.recharge();
+    }
+} catch(BurnoutException e) {
+    self.takeBreak();
+    inspiration.find();
+    continue;
+}
 ```
-Frontend Development    [██████████████████████░░]  90%
-Backend Development     [████████████████████░░░░]  80%
-Database Management     [███████████████████░░░░░]  75%
-DevOps                  [███████████████░░░░░░░░░]  60%
-```
-
-## 🔍 Current Focus
-
-I'm passionate about creating robust web applications with clean architectures. Currently exploring:
-- Advanced Angular state management patterns
-- Microservices with Spring Boot
-- Machine Learning fundamentals
-
-## 📫 Let's Connect!
-
-<div align="center">
-  
-[![Email](https://img.shields.io/badge/Email-hamzalamin80%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamzalamin80@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hamza_LAMIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamza-lamin-a0440a296)
-[![Twitter](https://img.shields.io/badge/Twitter-@FlHemza-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.x.com/FlHemza)
-
-</div>
-
-## 💡 Fun Fact
-
-> "I love tripping around new places, playing football with friends, and swimming to relax and stay fit!"
 
 ---
 
-<div align="center">
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-</div>
+⚡ *"Java is to JavaScript what car is to carpet."* - Chris Heilmann
