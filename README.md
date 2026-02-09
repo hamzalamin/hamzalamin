@@ -90,18 +90,6 @@ public class Developer {
 }
 ```
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hamzalamin&show_icons=true&theme=radical)
-
-## 🔥 Streak Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hamzalamin&theme=dark)
-
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=hamzalamin&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
 ## 👨‍💻 My Coding Journey
 
 ```java
